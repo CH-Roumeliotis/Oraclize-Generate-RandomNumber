@@ -15,6 +15,6 @@ contract generateNumber is usingOraclize{
     }
 
     function getRandomNumber() public payable{
-        oraclize_query("Comp", "IPFS Hash");
+        oraclize_query("computation", "IPFS Hash here");
     }
 }
